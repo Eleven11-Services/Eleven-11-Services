@@ -27773,7 +27773,7 @@ figcaption {
   justify-content: center;
   align-items: center;
   width: 50%;
-  height: 525px;
+  height: 575px;
   display: flex;
   position: relative;
   overflow: hidden;
@@ -58860,7 +58860,7 @@ figcaption {
   .mobile-menu {
     z-index: 1;
     background-color: #000000e6;
-    display: none;
+    display: block;
     right: 0%;
   }
 
