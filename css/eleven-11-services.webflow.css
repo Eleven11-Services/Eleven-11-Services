@@ -25606,6 +25606,7 @@ figcaption {
 .order_form-block {
   width: 100%;
   max-width: 35rem;
+  display: none;
 }
 
 .padding-global-14 {
@@ -38580,7 +38581,7 @@ figcaption {
 }
 
 .card-w-2 {
-  background-color: #fff;
+  background-color: #0000;
   border: 1px solid #f4f4f3;
   border-radius: 1rem;
   flex-direction: column;
@@ -38597,13 +38598,13 @@ figcaption {
 }
 
 .remove-w-2 {
-  background-color: #fcfbf7;
+  background-color: #fff;
   justify-content: center;
   align-items: center;
   min-height: 0;
   margin-top: 0;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
   display: flex;
 }
 
@@ -38768,10 +38769,19 @@ figcaption {
 }
 
 .text-blocok-for-case-study {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/316A6218.webp');
+  background-position: 0 0, 0 0;
+  background-size: auto, cover;
+  border-radius: 10px;
   padding: 2rem;
 }
 
-.heading-183, .heading-184, .heading-185 {
+.heading-183 {
+  color: var(--base-color-brand--white);
+  font-size: 2rem;
+}
+
+.heading-184, .heading-185 {
   font-size: 2rem;
 }
 
@@ -39758,7 +39768,7 @@ figcaption {
 }
 
 .link-824-copy {
-  color: var(--base-color-brand--black);
+  color: var(--base-color-neutral--white);
   text-decoration: none;
 }
 
@@ -39847,7 +39857,16 @@ figcaption {
   display: block;
 }
 
-.bold-text-213, .bold-text-214 {
+.bold-text-213 {
+  color: var(--base-color-brand--white);
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.bold-text-214 {
   color: #000;
   text-align: left;
   font-size: 1rem;
@@ -43205,6 +43224,136 @@ figcaption {
 .website-portfolio:hover {
   color: var(--background-color--background-primary);
   background-color: #000;
+}
+
+.body-4 {
+  background-color: var(--base-color-neutral--white);
+}
+
+.text-blocok-for-case-study-copy-kk {
+  background-image: linear-gradient(#00000080, #00000080), linear-gradient(#00000080, #00000080), url('../images/Cosmic-Queens-3.jpg');
+  background-position: 0 0, 0 0, 0 0;
+  background-size: auto, auto, cover;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.text-blocok-for-case-study-copy-for-luminar {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/luminar-technolab-kakkanad-ernakulam-computer-training-institutes-gtqw1htxkb.webp');
+  background-position: 0 0, 0 0;
+  background-size: auto, cover;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.text-blocok-for-case-study-copy-fr-travancore {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/scroll_2.jpg');
+  background-position: 0 0, 0 0;
+  background-size: auto, cover;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.text-blocok-for-case-study-copy-fr-haco {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/NIB00817-A-Home-1-min-scaled.webp');
+  background-position: 0 0, 0 0;
+  background-size: auto, cover;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.paragraph-215 {
+  color: var(--base-color-neutral--white);
+}
+
+.tok {
+  justify-content: center;
+  display: flex;
+}
+
+.eleven11newhomebutton-copy-today {
+  color: #fcf3d7;
+  text-align: center;
+  background-color: #1f1f30;
+  border-radius: 4px;
+  padding: .75rem 1.5rem;
+  font-weight: 500;
+  transition: all .25s;
+  box-shadow: 2px 3px 0 2px #fcf3d7;
+}
+
+.eleven11newhomebutton-copy-today:hover {
+  box-shadow: 0 0 #fcf3d7;
+}
+
+.eleven11newhomebutton-copy-today.is-alternate {
+  color: var(--base-color-brand--white);
+  background-color: #fcf3d7;
+  background-image: linear-gradient(158deg, #1f4d99, #18ab9e);
+  border: 2px solid #010d3c;
+  border-radius: 10px;
+  margin-top: 5px;
+  font-family: Aneklatin, Verdana, sans-serif;
+  box-shadow: 2px 3px 0 2px #010d3c;
+}
+
+.eleven11newhomebutton-copy-today.is-alternate._11 {
+  background-image: linear-gradient(158deg, #1f4d99, #17d9b9);
+  border-radius: 25px;
+}
+
+.eleven11newhomebutton-copy-today.is-alternate-copy._2 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.eleven11newhomebutton-copy-today.is-alternate-copy {
+  color: var(--base-color-brand--white);
+  background-color: #fcf3d7;
+  background-image: linear-gradient(158deg, #293864, #00a59b);
+  border: 2px solid #010d3c;
+  margin-top: 5px;
+  box-shadow: 2px 3px 0 2px #010d3c;
+}
+
+.eleven11newhomebutton-copy-today.is-alternate-copy:hover {
+  box-shadow: 0 0 #010d3c;
+}
+
+.eleven11newhomebutton-copy-today.is-alternate-copy.services {
+  border-color: var(--base-color-brand--white);
+  box-shadow: none;
+  background-image: linear-gradient(158deg, #1f4d99, #18ab9e);
+  font-family: Aneklatin, Verdana, sans-serif;
+}
+
+.eleven11newhomebutton-copy-today.is-alternate-copy.services:hover {
+  box-shadow: 0 0 0 0 var(--base-color-neutral--white);
+}
+
+.eleven11newhomebutton-copy-today.is-alternate-copy.services-copy {
+  border-color: var(--base-color-brand--white);
+  box-shadow: none;
+  background-image: linear-gradient(158deg, #1f4d99, #18ab9e);
+  font-family: Aneklatin, Verdana, sans-serif;
+}
+
+.eleven11newhomebutton-copy-today.is-alternate-copy.services-copy:hover {
+  box-shadow: 0 0 0 0 var(--base-color-neutral--white);
+}
+
+.eleven11newhomebutton-copy-today.is-alternate {
+  color: #fff;
+  background-color: #fcf3d7;
+  background-image: linear-gradient(158deg, #1f4d99, #18ab9e);
+  border: 2px solid #010d3c;
+  border-radius: 10px;
+  margin-top: 5px;
+  box-shadow: 2px 3px 0 2px #010d3c;
+}
+
+.eleven11newhomebutton-copy-today.is-alternate:hover {
+  box-shadow: 0 0 #010d3c;
 }
 
 @media screen and (min-width: 1280px) {
@@ -46934,7 +47083,7 @@ figcaption {
     justify-content: flex-start;
     align-items: flex-end;
     padding: 128px 5% 128px 128px;
-    display: block;
+    display: none;
     position: fixed;
     inset: 0% 0% 0% auto;
   }
@@ -49330,6 +49479,7 @@ figcaption {
   }
 
   .hhghg {
+    height: 80%;
     top: 15%;
     right: 4%;
   }
@@ -58860,7 +59010,7 @@ figcaption {
   .mobile-menu {
     z-index: 1;
     background-color: #000000e6;
-    display: block;
+    display: none;
     right: 0%;
   }
 
@@ -59491,11 +59641,10 @@ figcaption {
 
   .section_order {
     background-image: url('../images/AShly-Png3.png');
-    background-position: 0 0;
-    background-size: auto;
-    min-height: 80svh;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    background-size: cover;
+    min-height: 50svh;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .form_radio-label-2 {
@@ -59504,6 +59653,10 @@ figcaption {
 
   .heading-151 {
     font-size: 3rem;
+  }
+
+  .order_form-block {
+    display: none;
   }
 
   .text-size-medium-85 {
@@ -62523,6 +62676,10 @@ figcaption {
 
   ._142, .tabb, .tab-title-1, .tab-title-3 {
     font-size: 18px;
+  }
+
+  .eleven11newhomebutton-copy-today.is-alternate, .eleven11newhomebutton-copy-today.is-alternate-copy, .eleven11newhomebutton-copy-today.is-alternate-copy, .eleven11newhomebutton-copy-today.is-alternate {
+    margin-top: 10px;
   }
 }
 
