@@ -38603,8 +38603,8 @@ figcaption {
   align-items: center;
   min-height: 0;
   margin-top: 0;
-  padding-top: 12rem;
-  padding-bottom: 12rem;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
   display: flex;
 }
 
