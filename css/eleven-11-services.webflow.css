@@ -36106,6 +36106,10 @@ figcaption {
   display: flex;
 }
 
+.icon-large.wonderla {
+  height: 45px;
+}
+
 .footer-base-link {
   color: #6a6a6b;
   font-size: 12px;
@@ -36590,6 +36594,11 @@ figcaption {
   font-size: 12px;
   line-height: 1.7;
   display: flex;
+}
+
+.carousel-item-2.audi, .carousel-item-2.wonderla {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .integration-title-2 {
@@ -37146,16 +37155,6 @@ figcaption {
   grid-auto-columns: 1fr;
   place-items: center;
   display: grid;
-}
-
-.icon-large-copy {
-  object-fit: contain;
-  justify-content: center;
-  align-items: center;
-  width: 80px;
-  height: 80px;
-  transition: color .2s;
-  display: flex;
 }
 
 .tab-container {
@@ -43372,6 +43371,26 @@ figcaption {
   height: 100vh;
   margin-top: 0;
   font-family: Exo, sans-serif;
+}
+
+.icon-large-copy {
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  transition: color .2s;
+  display: flex;
+}
+
+.icon-large-copy-copy-audi {
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 50px;
+  transition: color .2s;
+  display: flex;
 }
 
 @media screen and (min-width: 1280px) {
@@ -61284,11 +61303,6 @@ figcaption {
     padding-bottom: 80px;
   }
 
-  .icon-large-copy {
-    width: 80px;
-    height: 80px;
-  }
-
   .paragraph-170 {
     font-size: 1rem;
   }
@@ -62698,6 +62712,11 @@ figcaption {
 
   .eleven11newhomebutton-copy-today.is-alternate, .eleven11newhomebutton-copy-today.is-alternate-copy, .eleven11newhomebutton-copy-today.is-alternate-copy, .eleven11newhomebutton-copy-today.is-alternate {
     margin-top: 10px;
+  }
+
+  .icon-large-copy, .icon-large-copy-copy-audi {
+    width: 80px;
+    height: 80px;
   }
 }
 
