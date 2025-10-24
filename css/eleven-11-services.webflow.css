@@ -41580,7 +41580,7 @@ figcaption {
 }
 
 .header-blog-2._8-copy {
-  background-image: linear-gradient(#00000080, #00000080), url('../images/chatgpt.webp');
+  background-image: linear-gradient(#00000080, #00000080), url('../images/nike-about-newsroom-headline-2000x2500-whydoit.jpg');
   background-position: 0 0, 50% 0;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -42100,27 +42100,6 @@ figcaption {
 
 .text-weight-semibold-copy.black {
   color: #000;
-}
-
-.header-blog-2-copy {
-  background-color: #5c4ebd00;
-  background-image: linear-gradient(#0000004a, #0000004a), none;
-  background-position: 0 0, 0 0;
-  background-repeat: repeat, no-repeat;
-  background-size: auto, cover;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 745px;
-  padding: 162px 3% 220px;
-  display: flex;
-}
-
-.header-blog-2-copy._8-copy {
-  background-image: linear-gradient(#00000080, #00000080), url('../images/freepik__the-style-is-candid-image-photography-with-natural__81738.png');
-  background-position: 0 0, 50%;
-  background-repeat: repeat, no-repeat;
-  background-size: auto, cover;
 }
 
 .bold-text-48-copy {
@@ -43393,6 +43372,27 @@ figcaption {
   display: flex;
 }
 
+.header-blog-2-copy {
+  background-color: #5c4ebd00;
+  background-image: linear-gradient(#0000004a, #0000004a), none;
+  background-position: 0 0, 0 0;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 745px;
+  padding: 162px 3% 220px;
+  display: flex;
+}
+
+.header-blog-2-copy._8-copy {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/businessman.webp');
+  background-position: 0 0, 50% 0;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
 @media screen and (min-width: 1280px) {
   .choose-content {
     justify-content: flex-start;
@@ -43427,15 +43427,15 @@ figcaption {
     padding-top: 120px;
   }
 
+  .container-default-3 {
+    max-width: 1250px;
+  }
+
   .header-blog-2-copy._8-copy {
-    background-image: linear-gradient(#00000080, #00000080), url('../images/freepik__the-style-is-candid-image-photography-with-natural__81738.png');
+    background-image: linear-gradient(#00000080, #00000080), url('../images/mothers-day-concept-with-letter-game.webp');
     background-position: 0 0, 50%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
-  }
-
-  .container-default-3 {
-    max-width: 1250px;
   }
 }
 
@@ -43597,10 +43597,6 @@ figcaption {
     grid-column-gap: 140px;
   }
 
-  .header-blog-2-copy._8-copy {
-    background-image: linear-gradient(#0000, #0000), url('../images/freepik__the-style-is-candid-image-photography-with-natural__81738.png');
-  }
-
   .container-default-3 {
     max-width: 1400px;
   }
@@ -43611,6 +43607,10 @@ figcaption {
 
   .movie-box-2, .landscape {
     width: 31%;
+  }
+
+  .header-blog-2-copy._8-copy {
+    background-image: linear-gradient(#0000, #0000), url('../images/mothers-day-concept-with-letter-game.webp');
   }
 }
 
@@ -43947,10 +43947,6 @@ figcaption {
     margin-right: 0;
   }
 
-  .header-blog-2-copy._8-copy {
-    background-image: linear-gradient(#0000, #0000), url('../images/freepik__the-style-is-candid-image-photography-with-natural__81738.png');
-  }
-
   .heading-202 {
     font-weight: 400;
   }
@@ -43990,6 +43986,10 @@ figcaption {
 
   .landscape {
     width: 100%;
+  }
+
+  .header-blog-2-copy._8-copy {
+    background-image: linear-gradient(#0000, #0000), url('../images/mothers-day-concept-with-letter-game.webp');
   }
 }
 
@@ -56009,11 +56009,6 @@ figcaption {
     padding-top: 30px;
   }
 
-  .header-blog-2-copy {
-    justify-content: center;
-    padding-bottom: 162px;
-  }
-
   .padding-section-large-2-copy-copy-2 {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -56121,6 +56116,11 @@ figcaption {
 
   ._142 {
     line-height: 1.4;
+  }
+
+  .header-blog-2-copy {
+    justify-content: center;
+    padding-bottom: 162px;
   }
 }
 
@@ -62469,10 +62469,6 @@ figcaption {
     border-radius: 6px;
   }
 
-  .header-blog-2-copy {
-    min-height: 680px;
-  }
-
   .eleven11newhomebutton-copy-portfolio.is-alternate, .eleven11newhomebutton-copy-portfolio.is-alternate-copy, .eleven11newhomebutton-copy-portfolio.is-alternate-copy, .eleven11newhomebutton-copy-portfolio.is-alternate {
     margin-top: 10px;
   }
@@ -62717,6 +62713,10 @@ figcaption {
   .icon-large-copy, .icon-large-copy-copy-audi {
     width: 80px;
     height: 80px;
+  }
+
+  .header-blog-2-copy {
+    min-height: 680px;
   }
 }
 
