@@ -43941,6 +43941,7 @@ figcaption {
   background-color: #000;
   padding-top: 60px;
   padding-bottom: 60px;
+  display: none;
 }
 
 .sections-header_right {
@@ -44412,6 +44413,7 @@ figcaption {
   background-color: #1a1a1e;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  display: none;
 }
 
 .name {
@@ -44480,6 +44482,7 @@ figcaption {
   background-color: #fff;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  display: none;
 }
 
 .padding-global-27 {
