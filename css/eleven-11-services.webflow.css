@@ -40925,7 +40925,8 @@ figcaption {
   justify-content: center;
   align-items: center;
   width: 100%;
-  display: flex;
+  margin-bottom: 20vh;
+  display: block;
 }
 
 .glowing-wrapper-animations {
@@ -41210,7 +41211,7 @@ figcaption {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 250vh;
+  margin-bottom: 0;
   padding-top: 4rem;
   padding-bottom: 4rem;
   display: flex;
@@ -41332,7 +41333,7 @@ figcaption {
 .section__title {
   text-align: center;
   -webkit-text-fill-color: transparent;
-  background-image: url('../images/image-8.png');
+  background-image: url('../images/WhatsApp-Image-2025-11-28-at-17.51.21.jpeg');
   background-position: 0 0;
   background-size: auto;
   -webkit-background-clip: text;
@@ -41391,6 +41392,7 @@ figcaption {
   max-width: 700px;
   margin-bottom: 0;
   font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 .section__text.section__text--alt {
@@ -42330,11 +42332,12 @@ figcaption {
 }
 
 .slider-mask-2.width-490px {
-  max-width: 480px;
+  max-width: none;
   overflow: visible;
 }
 
 .width-100-2 {
+  aspect-ratio: auto;
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -42352,7 +42355,7 @@ figcaption {
 }
 
 .inner-container._574px {
-  max-width: 745px;
+  max-width: 1200px;
 }
 
 .slide-item-mg {
@@ -42369,6 +42372,7 @@ figcaption {
   background-color: #fff;
   padding-top: 50px;
   padding-bottom: 50px;
+  display: block;
   overflow: hidden;
 }
 
@@ -42389,6 +42393,10 @@ figcaption {
   margin-bottom: 40px;
 }
 
+.paragraph-213 {
+  font-size: 1.5rem;
+}
+
 .image-wrapper---br-top {
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
@@ -42397,7 +42405,7 @@ figcaption {
 }
 
 .image-wrapper---br-top.position-relative {
-  height: 800px;
+  height: 500px;
 }
 
 .container-default-3 {
@@ -44689,6 +44697,25 @@ figcaption {
   background-position: 0 0, 50% 0;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
+}
+
+.bold-text-234 {
+  line-height: 2.5rem;
+}
+
+.width-100-2-copy33 {
+  aspect-ratio: auto;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.width-100-2-copy, .width-100-2-copy-copy {
+  aspect-ratio: auto;
+  object-fit: cover;
+  object-position: 50% 40%;
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (min-width: 1280px) {
@@ -60912,7 +60939,7 @@ figcaption {
   .mobile-menu {
     z-index: 1;
     background-color: #000000e6;
-    display: block;
+    display: none;
     right: 0%;
   }
 
@@ -64157,6 +64184,11 @@ figcaption {
     display: none;
   }
 
+  .section__text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .zoom-header.right {
     padding-left: 0;
   }
@@ -64398,6 +64430,10 @@ figcaption {
 
   .hidden-on-desktop {
     display: none;
+  }
+
+  .image-wrapper---br-top.position-relative {
+    height: auto;
   }
 
   .container-default-3 {
@@ -64832,6 +64868,10 @@ figcaption {
 
   .header-blog-2-copy-copy-for-prada {
     min-height: 680px;
+  }
+
+  .width-100-2-copy33, .width-100-2-copy, .width-100-2-copy-copy {
+    height: auto;
   }
 }
 
