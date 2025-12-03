@@ -42405,7 +42405,7 @@ figcaption {
 }
 
 .image-wrapper---br-top.position-relative {
-  height: 500px;
+  height: 600px;
 }
 
 .container-default-3 {
@@ -62210,6 +62210,11 @@ figcaption {
     display: none;
   }
 
+  .new-heading {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .text-size-xlarge.text-weight-normal.text-align-center {
     font-size: 2rem;
   }
@@ -64184,9 +64189,13 @@ figcaption {
     display: none;
   }
 
+  .section__title {
+    background-position: 50% 0;
+  }
+
   .section__text {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1rem;
   }
 
   .zoom-header.right {
@@ -64868,6 +64877,10 @@ figcaption {
 
   .header-blog-2-copy-copy-for-prada {
     min-height: 680px;
+  }
+
+  .bold-text-234 {
+    line-height: 1.5rem;
   }
 
   .width-100-2-copy33, .width-100-2-copy, .width-100-2-copy-copy {
