@@ -43674,7 +43674,7 @@ figcaption {
 .clients_logo-wrap {
   justify-content: flex-start;
   align-items: center;
-  display: flex;
+  display: none;
 }
 
 .navbar-brand-2.w--current {
