@@ -36291,6 +36291,7 @@ figcaption {
 }
 
 .card-003_image {
+  aspect-ratio: 16 / 9;
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -42982,8 +42983,7 @@ figcaption {
 
 .landscape {
   width: 100%;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: 20px 15px 40px;
 }
 
 .fff {
@@ -42994,7 +42994,8 @@ figcaption {
   flex-flow: column;
   justify-content: flex-end;
   align-items: stretch;
-  height: auto;
+  width: 100%;
+  height: 650px;
   text-decoration: none;
   display: flex;
   position: relative;
@@ -44911,6 +44912,18 @@ figcaption {
   line-height: 1.3125rem;
 }
 
+.movies-holder-copy {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.section-19-copy-for-porttfolio-intro {
+  background-color: #000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 @media screen and (min-width: 1280px) {
   .choose-content {
     justify-content: flex-start;
@@ -45550,6 +45563,10 @@ figcaption {
     grid-auto-columns: 1fr;
     max-width: 1500px;
     display: grid;
+  }
+
+  .section-19-copy-for-porttfolio-intro {
+    background-color: #000;
   }
 }
 
@@ -51472,6 +51489,10 @@ figcaption {
   .client-name {
     font-size: 2rem;
     line-height: 2.125rem;
+  }
+
+  .movies-holder-copy {
+    flex-flow: column;
   }
 }
 
@@ -58332,6 +58353,15 @@ figcaption {
     font-size: 2rem;
     line-height: 2.125rem;
   }
+
+  .movies-holder-copy {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-19-copy-for-porttfolio-intro {
+    background-color: var(--base-color-neutral--black);
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -62476,7 +62506,7 @@ figcaption {
   .content-2 {
     align-items: center;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 0;
   }
 
   .content__title.content__title--small {
@@ -62486,7 +62516,7 @@ figcaption {
   }
 
   .text-span-24 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   .div-block-24 {
@@ -63332,6 +63362,10 @@ figcaption {
     padding: 100px 20px 60px;
   }
 
+  .card-003_image {
+    aspect-ratio: auto;
+  }
+
   .text-block-5 {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -63762,7 +63796,7 @@ figcaption {
 
   .text-block-29-copy-copy {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 2.5rem;
   }
 
@@ -64919,7 +64953,7 @@ figcaption {
   }
 
   .fff {
-    height: 650px;
+    height: auto;
   }
 
   ._000 {
@@ -65270,6 +65304,16 @@ figcaption {
 
   .client-name {
     font-size: 2rem;
+  }
+
+  .movies-holder-copy {
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .section-19-copy-for-porttfolio-intro {
+    background-color: var(--base-color-brand--black);
+    padding-top: 0;
   }
 }
 
