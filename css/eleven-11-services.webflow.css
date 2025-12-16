@@ -42360,6 +42360,7 @@ figcaption {
 }
 
 .slide-item-mg {
+  width: 40vh;
   height: auto;
   margin-right: 28px;
 }
@@ -42417,6 +42418,10 @@ figcaption {
 
 .bold-text-228 {
   color: #a69472;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(#2c4a96, #03a599);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .btn-circle-secondary {
@@ -44922,6 +44927,14 @@ figcaption {
   background-color: #000;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.section_header84-6-copy-for-cc-copy-for-cc {
+  background-color: #0a2459;
+  background-image: url('../images/Untitled-design---2025-08-29T182326.037.png');
+  background-position: 50% 0;
+  background-size: cover;
+  margin-top: 120px;
 }
 
 @media screen and (min-width: 1280px) {
