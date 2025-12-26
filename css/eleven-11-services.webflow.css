@@ -38796,7 +38796,7 @@ figcaption {
 
 .heading-183 {
   color: var(--base-color-brand--white);
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .heading-184, .heading-185 {
@@ -42360,7 +42360,7 @@ figcaption {
 }
 
 .slide-item-mg {
-  width: 40vh;
+  width: 100%;
   height: auto;
   margin-right: 28px;
 }
@@ -43248,6 +43248,7 @@ figcaption {
   background-position: 0 0, 0 0;
   background-size: auto, cover;
   border-radius: 10px;
+  height: 100%;
   padding: 2rem;
 }
 
@@ -44935,6 +44936,10 @@ figcaption {
   background-position: 50% 0;
   background-size: cover;
   margin-top: 120px;
+}
+
+.bold-text-235 {
+  font-size: 1.8rem;
 }
 
 @media screen and (min-width: 1280px) {
