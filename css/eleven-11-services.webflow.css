@@ -2733,7 +2733,7 @@ figcaption {
 }
 
 .paragraph {
-  color: #000;
+  color: #fff;
 }
 
 .heading-12 {
@@ -2846,7 +2846,7 @@ figcaption {
 }
 
 .heading-style-h5-2 {
-  color: #293864;
+  color: #2d3c69;
   text-align: left;
   font-size: 1.5rem;
   font-weight: 700;
@@ -5621,7 +5621,7 @@ figcaption {
 }
 
 .text-size-medium-2-copy {
-  color: #000;
+  color: #fff;
   margin-bottom: 5rem;
   font-size: 1.125rem;
 }
@@ -16327,7 +16327,22 @@ figcaption {
   position: static;
 }
 
-.link-161, .link-162, .link-163, .link-164, .link-165, .link-166, .link-167, .link-168 {
+.link-161, .link-162, .link-163 {
+  color: var(--base-color-system--success-green-light);
+  text-decoration: none;
+}
+
+.link-164 {
+  color: var(--link-color--link-alternate);
+  text-decoration: none;
+}
+
+.link-165 {
+  color: var(--base-color-system--success-green-light);
+  text-decoration: none;
+}
+
+.link-166, .link-167, .link-168 {
   text-decoration: none;
 }
 
@@ -45070,6 +45085,41 @@ figcaption {
   margin-right: 28px;
 }
 
+.section_home_layout-copy {
+  background-color: #000;
+  width: 100%;
+  display: block;
+}
+
+.text-size-medium-2-copy-copy {
+  color: #fff;
+  margin-bottom: 5rem;
+  font-size: 1.125rem;
+}
+
+.text-size-medium-2-copy-copy.text-color-alternate {
+  color: var(--base-color-brand--white);
+  font-weight: 300;
+}
+
+.paragraph-218 {
+  color: var(--base-color-brand--white);
+}
+
+.paragraph-219, .paragraph-220, .paragraph-221, .paragraph-222 {
+  color: var(--background-color--background-primary);
+}
+
+.header84_card-content-6-copy-for-cc-furnishing-copy, .header84_card-content-6-copy, .header84_card-content-6-copy-for-cc-furnishing-copy-hh {
+  background-color: #fcfcfc;
+  border: 0 solid #29386400;
+  border-radius: 0;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+  display: flex;
+}
+
 @media screen and (min-width: 1280px) {
   .choose-content {
     justify-content: flex-start;
@@ -58511,6 +58561,14 @@ figcaption {
 
   .section-19-copy-for-porttfolio-intro {
     background-color: var(--base-color-neutral--black);
+  }
+
+  .text-size-medium-2-copy-copy {
+    font-size: 1rem;
+  }
+
+  .header84_card-content-6-copy-for-cc-furnishing-copy, .header84_card-content-6-copy, .header84_card-content-6-copy-for-cc-furnishing-copy-hh {
+    padding: 2rem;
   }
 }
 
